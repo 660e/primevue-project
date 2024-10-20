@@ -19,18 +19,19 @@
   },
   "devDependencies": {
     "@tsconfig/node20": "^20.1.4",
-    "@types/node": "^20.16.11",
+    "@types/node": "^20.16.13",
     "@vitejs/plugin-vue": "^5.1.4",
     "@vitejs/plugin-vue-jsx": "^4.0.1",
     "@vue/eslint-config-prettier": "^10.0.0",
-    "@vue/eslint-config-typescript": "^14.0.1",
+    "@vue/eslint-config-typescript": "^14.1.1",
     "@vue/tsconfig": "^0.5.1",
-    "eslint": "^9.12.0",
+    "eslint": "^9.13.0",
     "eslint-plugin-vue": "^9.29.0",
-    "npm-run-all2": "^6.2.3",
+    "npm-run-all2": "^6.2.4",
     "prettier": "^3.3.3",
     "typescript": "~5.5.4",
-    "vite": "^5.4.8",
+    "vite": "^5.4.9",
     "vue-tsc": "^2.1.6"
-  }
+  },
+  "packageManager": "pnpm@8.15.5+sha1.a58c038faac410c947dbdb93eb30994037d0fce2"
 }
