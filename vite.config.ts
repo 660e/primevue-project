@@ -6,13 +6,13 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [
-    vue(),
-    vueJsx(),
-  ],
+  plugins: [vue(), vueJsx()],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
-    }
-  }
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
+    },
+  },
+  server: {
+    host: '0.0.0.0',
+  },
 })
