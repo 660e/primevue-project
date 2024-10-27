@@ -1,6 +1,4 @@
-<script setup lang="ts">
-defineOptions({ name: 'app-home' });
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div>home</div>
