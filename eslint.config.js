@@ -45,7 +45,6 @@ export default [
           alphabetical: true,
         },
       ],
-      'vue/component-definition-name-casing': ['error', 'kebab-case'],
       'vue/custom-event-name-casing': ['error', 'kebab-case'],
       'vue/html-self-closing': ['error', { html: { normal: 'never', void: 'always' } }],
       'vue/max-attributes-per-line': 'off',
@@ -63,6 +62,10 @@ export default [
         },
       ],
       'vue/singleline-html-element-content-newline': 'off',
+
+      // https://typescript-eslint.io/rules/
+      '@typescript-eslint/no-empty-function': 'error',
+      '@typescript-eslint/no-inferrable-types': 'error',
     },
   },
 ];
