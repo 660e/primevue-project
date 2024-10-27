@@ -50,6 +50,7 @@ export default [
       'vue/html-self-closing': ['error', { html: { normal: 'never', void: 'always' } }],
       'vue/max-attributes-per-line': 'off',
       'vue/multi-word-component-names': 'off',
+      'vue/no-empty-component-block': 'error',
       'vue/no-static-inline-styles': ['error'],
       'vue/require-macro-variable-name': [
         'error',

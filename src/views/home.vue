@@ -1,5 +1,3 @@
-<script setup lang="ts"></script>
-
 <template>
-  <div>home</div>
+  <div>Lorem ipsum dolor sit amet.</div>
 </template>
