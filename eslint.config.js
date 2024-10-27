@@ -16,4 +16,12 @@ export default [
   ...pluginVue.configs['flat/essential'],
   ...vueTsEslintConfig(),
   skipFormatting,
+
+  // https://eslint.org/docs/latest/rules/
+  {
+    rules: {
+      'no-var': 'error',
+      'prefer-const': 'error',
+    },
+  },
 ];
