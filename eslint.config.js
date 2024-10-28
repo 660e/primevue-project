@@ -11,7 +11,16 @@ export default [
   },
   {
     name: 'app/files-to-ignore',
-    ignores: ['components.d.ts', 'eslint.config.js', 'postcss.config.js', 'tailwind.config.js', '**/dist/**', '**/dist-ssr/**', '**/coverage/**'],
+    ignores: [
+      'auto-imports.d.ts',
+      'components.d.ts',
+      'eslint.config.js',
+      'postcss.config.js',
+      'tailwind.config.js',
+      '**/dist/**',
+      '**/dist-ssr/**',
+      '**/coverage/**',
+    ],
   },
 
   eslint.configs.recommended,
