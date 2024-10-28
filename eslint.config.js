@@ -1,3 +1,5 @@
+import eslint from '@eslint/js';
+import tseslint from 'typescript-eslint';
 import pluginVue from 'eslint-plugin-vue';
 import vueTsEslintConfig from '@vue/eslint-config-typescript';
 import skipFormatting from '@vue/eslint-config-prettier/skip-formatting';
@@ -9,14 +11,22 @@ export default [
   },
   {
     name: 'app/files-to-ignore',
-    ignores: ['**/dist/**', '**/dist-ssr/**', '**/coverage/**'],
+    ignores: ['eslint.config.js', '**/dist/**', '**/dist-ssr/**', '**/coverage/**'],
   },
 
+  eslint.configs.recommended,
+  ...tseslint.configs.recommended,
   ...pluginVue.configs['flat/recommended'],
   ...vueTsEslintConfig(),
   skipFormatting,
 
   {
+    languageOptions: {
+      parserOptions: {
+        extraFileExtensions: ['.vue'],
+        projectService: true,
+      },
+    },
     rules: {
       // https://eslint.org/docs/latest/rules/
       'no-var': 'error',

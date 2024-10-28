@@ -16,9 +16,15 @@ dependencies:
     version: 4.4.5(vue@3.5.12)
 
 devDependencies:
+  '@eslint/js':
+    specifier: ^9.13.0
+    version: 9.13.0
   '@tsconfig/node20':
     specifier: ^20.1.4
     version: 20.1.4
+  '@types/eslint__js':
+    specifier: ^8.42.3
+    version: 8.42.3
   '@types/node':
     specifier: ^20.17.1
     version: 20.17.1
@@ -52,6 +58,9 @@ devDependencies:
   typescript:
     specifier: ~5.5.4
     version: 5.5.4
+  typescript-eslint:
+    specifier: ^8.11.0
+    version: 8.11.0(eslint@9.13.0)(typescript@5.5.4)
   vite:
     specifier: ^5.4.10
     version: 5.4.10(@types/node@20.17.1)
@@ -806,6 +815,19 @@ packages:
 
   /@tsconfig/node20@20.1.4:
     resolution: {integrity: sha512-sqgsT69YFeLWf5NtJ4Xq/xAF8p4ZQHlmGW74Nu2tD4+g5fAsposc4ZfaaPixVu4y01BEiDCWLRDCvDM5JOsRxg==}
+    dev: true
+
+  /@types/eslint@9.6.1:
+    resolution: {integrity: sha512-FXx2pKgId/WyYo2jXw63kk7/+TY7u7AziEJxJAnSFzHlqTAS3Ync6SvgYAN/k4/PQpnnVuzoMuVnByKK2qp0ag==}
+    dependencies:
+      '@types/estree': 1.0.6
+      '@types/json-schema': 7.0.15
+    dev: true
+
+  /@types/eslint__js@8.42.3:
+    resolution: {integrity: sha512-alfG737uhmPdnvkrLdZLcEKJ/B8s9Y4hrZ+YAdzUeoArBlSUERA2E87ROfOaS4jd/C45fzOoZzidLc1IPwLqOw==}
+    dependencies:
+      '@types/eslint': 9.6.1
     dev: true
 
   /@types/estree@1.0.6:
