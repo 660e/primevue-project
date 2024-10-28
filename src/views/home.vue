@@ -1,3 +1,12 @@
+<script setup lang="ts">
+import { ref } from 'vue';
+
+const value = ref();
+</script>
+
 <template>
-  <div class="text-3xl font-bold underline">Lorem ipsum dolor sit amet.</div>
+  <div class="h-screen text-sm flex justify-center items-center gap-2">
+    <InputText v-model="value" type="text" />
+    <Button label="Submit" />
+  </div>
 </template>
