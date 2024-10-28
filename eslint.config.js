@@ -32,6 +32,10 @@ export default [
       'no-var': 'error',
       'prefer-const': 'error',
 
+      // https://typescript-eslint.io/rules/
+      '@typescript-eslint/no-empty-function': 'error',
+      '@typescript-eslint/no-inferrable-types': 'error',
+
       // https://eslint.vuejs.org/rules/
       'vue/attributes-order': [
         'error',
@@ -72,10 +76,6 @@ export default [
         },
       ],
       'vue/singleline-html-element-content-newline': 'off',
-
-      // https://typescript-eslint.io/rules/
-      '@typescript-eslint/no-empty-function': 'error',
-      '@typescript-eslint/no-inferrable-types': 'error',
     },
   },
 ];
