@@ -37,10 +37,6 @@ export default [
       },
     },
     rules: {
-      // https://eslint.org/docs/latest/rules/
-      'no-var': 'error',
-      'prefer-const': 'error',
-
       // https://typescript-eslint.io/rules/
       '@typescript-eslint/no-empty-function': 'error',
       '@typescript-eslint/no-inferrable-types': 'error',
