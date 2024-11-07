@@ -14,11 +14,14 @@
   },
   "dependencies": {
     "@primevue/themes": "^4.2.1",
+    "@vueuse/core": "^11.2.0",
+    "dayjs": "^1.11.13",
     "pinia": "^2.2.6",
     "primeicons": "^7.0.0",
     "primevue": "^4.2.1",
     "vue": "^3.5.12",
-    "vue-router": "^4.4.5"
+    "vue-router": "^4.4.5",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@eslint/js": "^9.14.0",
@@ -46,5 +49,5 @@
     "vite": "^5.4.10",
     "vue-tsc": "^2.1.10"
   },
-  "packageManager": "pnpm@8.15.5+sha1.a58c038faac410c947dbdb93eb30994037d0fce2"
+  "packageManager": "pnpm@9.12.3"
 }
